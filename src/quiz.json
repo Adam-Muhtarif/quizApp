@@ -1,0 +1,118 @@
+{
+  "HTML": {
+    "questions": [
+      {
+        "question": "What is HTML?",
+        "correct_answer": "Markup language for creating web pages.",
+        "false_answers": [
+          "Programming language for creating desktop applications.",
+          "Scripting language for creating dynamic web pages.",
+          "Database language for storing information."
+        ]
+      },
+      {
+        "question": "What are the basic elements of an HTML document?",
+        "correct_answer": "HTML tag, head tag, and body tag.",
+        "false_answers": [
+          "HTML tag, header tag, and footer tag.",
+          "HTML tag, nav tag, and section tag.",
+          "HTML tag, input tag, and button tag."
+        ]
+      },
+      {
+        "question": "How do you create a hyperlink in HTML?",
+        "correct_answer": "Use the anchor tag with href and text attributes.",
+        "false_answers": [
+          "Use the link tag with href and rel attributes.",
+          "Use the span tag with href and text attributes.",
+          "Use the button tag with href and text attributes."
+        ]
+      },
+      {
+        "question": "What is the difference between an HTML tag and an HTML attribute?",
+        "correct_answer": "Tag defines the element's structure and content, while attribute provides additional information about the element.",
+        "false_answers": [
+          "Tag defines the element's style and layout, while attribute provides additional information about the element's content.",
+          "Tag defines the element's behavior, while attribute provides additional information about how the element should be displayed.",
+          "Tag defines the element's animation, while attribute provides additional information about how the element should be positioned."
+        ]
+      },
+      {
+        "question": "What is the purpose of the alt attribute in an HTML image tag?",
+        "correct_answer": "Provides alternative text for the image.",
+        "false_answers": [
+          "Provides a caption for the image.",
+          "Provides a link to a related image.",
+          "Provides a description of the image's style and layout."
+        ]
+      }
+    ]
+  },
+  "CSS": {
+    "questions": [
+      {
+        "question": "What is CSS?",
+        "correct_answer": "CSS is a language used for styling web pages and applications.",
+        "false_answers": [
+          "CSS is a programming language used for creating desktop applications.",
+          "CSS is a scripting language used for creating dynamic web pages.",
+          "CSS is a markup language used for creating web pages."
+        ]
+      },
+      {
+        "question": "What is the syntax for creating a CSS rule?",
+        "correct_answer": "Selector { property: value; }",
+        "false_answers": [
+          "Selector { value: property; }",
+          "Selector (property: value);",
+          "Selector [property=value];"
+        ]
+      },
+      {
+        "question": "What is the box model in CSS?",
+        "correct_answer": "The box model is a concept in CSS that describes how elements are displayed with margin, border, padding, and content.",
+        "false_answers": [
+          "The box model is a layout technique in CSS that arranges elements in a grid.",
+          "The box model is a positioning technique in CSS that aligns elements relative to their parent container.",
+          "The box model is an animation technique in CSS that creates moving elements."
+        ]
+      },
+      {
+        "question": "What is the difference between margin and padding in CSS?",
+        "correct_answer": "Margin is the space outside an element's border, while padding is the space inside an element's border.",
+        "false_answers": [
+          "Margin is the space inside an element's border, while padding is the space outside an element's border.",
+          "Margin is the space between two elements, while padding is the space between an element and its parent container.",
+          "Margin is the space around an element's content, while padding is the space around an element's text."
+        ]
+      },
+      {
+        "question": "What is the CSS display property used for?",
+        "correct_answer": "The display property is used to define how an element should be displayed.",
+        "false_answers": [
+          "The display property is used to define the color of an element's text.",
+          "The display property is used to define the size of an element.",
+          "The display property is used to define the position of an element."
+        ]
+      },
+      {
+        "question": "What is the CSS box-sizing property used for?",
+        "correct_answer": "The box-sizing property is used to control how the width and height of an element are calculated.",
+        "false_answers": [
+          "The box-sizing property is used to control the background color of an element.",
+          "The box-sizing property is used to control the font size of an element.",
+          "The box-sizing property is used to control the position of an element."
+        ]
+      },
+      {
+        "question": "What is the CSS float property used for?",
+        "correct_answer": "The float property is used to position an element to the left or right of its container.",
+        "false_answers": [
+          "The float property is used to make text italic.",
+          "The float property is used to make text bold.",
+          "The float property is used to change the font family of an element."
+        ]
+      }
+    ]
+  }
+}

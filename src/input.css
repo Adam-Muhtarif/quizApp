@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --main-color: #0d52ca;
+  --second-color: #eee;
+}
+#app {
+  background-color: var(--second-color);
+}
+.choose-section {
+  background-color: var(--second-color);
+}
+.choose-section li {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  gap: 0.25rem;
+  align-items: start;
+}
+.choose-section [type="radio"] {
+  margin-top: 0.35rem;
+  cursor: pointer;
+}
+.choose-section [type="radio"] + label {
+  flex: 1;
+  cursor: pointer;
+}
+.choose-section [type="radio"]:checked + label {
+  color: var(--main-color);
+  font-weight: bold;
+}
+.bullets {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.bullets span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+.bullets span.fill {
+  background-color: var(--main-color);
+  border: none;
+}
+.result {
+  text-align: center;
+  padding: 2rem 0 !important;
+}
+.result span {
+  font-weight: bold;
+}
+.result span.correct {
+  color: green;
+}
+.result span.wrong {
+  color: red;
+}

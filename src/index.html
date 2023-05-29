@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./../dist/output.css" rel="stylesheet" />
+    <script src="index.js" defer></script>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <div class="md:w-fit md:mt-10 mx-auto p-4 capitalize" id="app">
+      <header class="bg-white flex justify-between p-2">
+        <div>category: <span class="category font-bold"></span></div>
+        <div>question count: <span class="quiz-count font-bold"></span></div>
+      </header>
+
+      <section class="bg-white mt-4 p-4" id="app-body">
+        <h1 class="quiz text-2xl font-bold">What Is your name ?</h1>
+
+        <ul class="choose-section mt-2"></ul>
+
+        <a
+          class="btn block bg-blue-700 text-white text-center py-2 mt-4"
+          href="#"
+          >submit answer</a
+        >
+      </section>
+
+      <footer class="bg-white mt-4 p-2 flex justify-between">
+        <div class="bullets"></div>
+        <div class="timer">00:00</div>
+      </footer>
+    </div>
+  </body>
+</html>
