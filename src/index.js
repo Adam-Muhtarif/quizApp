@@ -158,7 +158,7 @@ function genRandomSection(data) {
 
 async function getData() {
   try {
-    let response = await fetch("../src/quiz.json"),
+    let response = await fetch("./src/quiz.json"),
       data = await response.json();
     window.data = data;
     genRandomSection(data);
