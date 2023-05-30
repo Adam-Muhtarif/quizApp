@@ -114,5 +114,193 @@
         ]
       }
     ]
+  },
+  "MySQL": {
+    "questions": [
+      {
+        "question": "What is MySQL?",
+        "correct_answer": "MySQL is an open-source relational database management system.",
+        "false_answers": [
+          "MySQL is a programming language used for creating desktop applications.",
+          "MySQL is a scripting language used for creating dynamic web pages.",
+          "MySQL is a markup language used for creating web pages."
+        ]
+      },
+      {
+        "question": "What is a database in MySQL?",
+        "correct_answer": "A database in MySQL is a collection of related data organized in tables.",
+        "false_answers": [
+          "A database in MySQL is a programming language.",
+          "A database in MySQL is a file storage system.",
+          "A database in MySQL is a collection of HTML documents."
+        ]
+      },
+      {
+        "question": "What is a table in MySQL?",
+        "correct_answer": "A table in MySQL is a collection of related data organized in rows and columns.",
+        "false_answers": [
+          "A table in MySQL is a programming language construct.",
+          "A table in MySQL is a collection of images.",
+          "A table in MySQL is a collection of paragraphs of text."
+        ]
+      },
+      {
+        "question": "What is a primary key in MySQL?",
+        "correct_answer": "A primary key in MySQL is a uniqueidentifier for each record in a table.",
+        "false_answers": [
+          "A primary key in MySQL is a tool for optimizing database performance.",
+          "A primary key in MySQL is a way to store data in a compressed format.",
+          "A primary key in MySQL is a way to encrypt sensitive data."
+        ]
+      },
+      {
+        "question": "What is a foreign key in MySQL?",
+        "correct_answer": "A foreign key in MySQL is a field that points to the primary key of another table.",
+        "false_answers": [
+          "A foreign key in MySQL is a way to add random data to a table.",
+          "A foreign key in MySQL is a way to delete data from a table.",
+          "A foreign key in MySQL is a way to sort data in a table."
+        ]
+      },
+      {
+        "question": "What is SQL?",
+        "correct_answer": "SQL is a language used to manage and manipulate data in a relational database.",
+        "false_answers": [
+          "SQL is a programming language used for creating desktop applications.",
+          "SQL is a scripting language used for creating dynamic web pages.",
+          "SQL is a markup language used for creating web pages."
+        ]
+      },
+      {
+        "question": "What is a SELECT statement in MySQL?",
+        "correct_answer": "A SELECT statement in MySQL retrieves data from a table.",
+        "false_answers": [
+          "A SELECT statement in MySQL deletes data from a table.",
+          "A SELECT statement in MySQL updates data in a table.",
+          "A SELECT statement in MySQL adds a new table to a database."
+        ]
+      },
+      {
+        "question": "What is a WHERE clause in MySQL?",
+        "correct_answer": "A WHERE clause in MySQL is used to filter data based on a specific condition.",
+        "false_answers": [
+          "A WHERE clause in MySQL is used to sort data in ascending or descending order.",
+          "A WHERE clause in MySQL is used to group data by a specific column.",
+          "A WHERE clause in MySQL is used to add new data to a table."
+        ]
+      },
+      {
+        "question": "What is a JOIN statement in MySQL?",
+        "correct_answer": "A JOIN statement in MySQL combines data from two or more tables based on a related column.",
+        "false_answers": [
+          "A JOIN statement in MySQL deletes data from a table.",
+          "A JOIN statement in MySQL updates data in a table.",
+          "A JOIN statement in MySQL adds a new table to a database."
+        ]
+      },
+      {
+        "question": "What is a stored procedure in MySQL?",
+        "correct_answer": "A stored procedure in MySQL is a precompiled set of SQL statements that can be executed repeatedly.",
+        "false_answers": [
+          "A stored procedure in MySQL is a way to add random data to a table.",
+          "A stored procedure in MySQL is a way to delete data from a table.",
+          "A stored procedure in MySQL is a way to store data in a compressed format."
+        ]
+      }
+    ]
+  },
+  "JavaScript": {
+    "questions": [
+      {
+        "question": "What is JavaScript?",
+        "correct_answer": "JavaScript is a programming language used to create interactive and dynamic web pages.",
+        "false_answers": [
+          "JavaScript is a scripting language used to create desktop applications.",
+          "JavaScript is a markup language used to structure web pages.",
+          "JavaScript is a database language used to store and retrieve data."
+        ]
+      },
+      {
+        "question": "What are variables in JavaScript?",
+        "correct_answer": "Variables in JavaScript are containers that store data values.",
+        "false_answers": [
+          "Variables in JavaScript are functions that perform specific tasks.",
+          "Variables in JavaScript are conditional statements that execute code based on a condition.",
+          "Variables in JavaScript are data types used for storing complex data."
+        ]
+      },
+      {
+        "question": "What is the DOM in JavaScript?",
+        "correct_answer": "The DOM (Document Object Model) in JavaScript is a hierarchical representation of an HTML document, which can be manipulated using JavaScript.",
+        "false_answers": [
+          "The DOM in JavaScript is a built-in function for generating random numbers.",
+          "The DOM in JavaScript is a data structure used for storing and retrieving data.",
+          "The DOM in JavaScript is a library for creating responsive user interfaces."
+        ]
+      },
+      {
+        "question": "What isa function in JavaScript?",
+        "correct_answer": "A function in JavaScript is a reusable block of code that performs a specific task.",
+        "false_answers": [
+          "A function in JavaScript is a variable that stores data values.",
+          "A function in JavaScript is a conditional statement that executes code based on a condition.",
+          "A function in JavaScript is a data type used for storing complex data."
+        ]
+      },
+      {
+        "question": "What is the difference between let, const, and var in JavaScript?",
+        "correct_answer": "let and const are block-scoped variables, while var is function-scoped. const is a variable that cannot be reassigned once it is declared, while let and var can be reassigned.",
+        "false_answers": [
+          "let and var are block-scoped variables, while const is function-scoped. let is a variable that cannot be reassigned once it is declared, while const and var can be reassigned.",
+          "const and var are block-scoped variables, while let is function-scoped. var is a variable that cannot be reassigned once it is declared, while let and const can be reassigned.",
+          "let, const, and var are all block-scoped variables that cannot be reassigned once they are declared."
+        ]
+      },
+      {
+        "question": "What is an event in JavaScript?",
+        "correct_answer": "An event in JavaScript is an action or occurrence that happens in aweb page, such as a user clicking a button, and can trigger JavaScript code to run.",
+        "false_answers": [
+          "An event in JavaScript is a data type used for storing complex data.",
+          "An event in JavaScript is a function that performs a specific task.",
+          "An event in JavaScript is a variable that stores data values."
+        ]
+      },
+      {
+        "question": "What is the difference between == and === in JavaScript?",
+        "correct_answer": "== compares the values of two variables, while === compares the values and data types.",
+        "false_answers": [
+          "== compares the data types of two variables, while === compares the values and data types.",
+          "== and === are identical and can be used interchangeably.",
+          "== compares the references of two variables, while === compares the values and data types."
+        ]
+      },
+      {
+        "question": "What is an array in JavaScript?",
+        "correct_answer": "An array in JavaScript is a collection of data values stored in a single variable.",
+        "false_answers": [
+          "An array in JavaScript is a function that performs a specific task.",
+          "An array in JavaScript is a conditional statement that executes code based on a condition.",
+          "An array in JavaScript is a data structure used for storing and retrieving data."
+        ]
+      },
+      {
+        "question": "What is a callback function in JavaScript?",
+        "correct_answer": "A callback function in JavaScript is a function thatis passed as an argument to another function and is executed inside that function.",
+        "false_answers": [
+          "A callback function in JavaScript is a function that is called at the beginning of a program.",
+          "A callback function in JavaScript is a function that is executed at a specific time interval.",
+          "A callback function in JavaScript is a function that performs a specific task."
+        ]
+      },
+      {
+        "question": "What is the use of the 'this' keyword in JavaScript?",
+        "correct_answer": "The 'this' keyword in JavaScript refers to the current object, and is used to access its properties and methods.",
+        "false_answers": [
+          "The 'this' keyword in JavaScript is used to declare a new variable.",
+          "The 'this' keyword in JavaScript is used to create a new object.",
+          "The 'this' keyword in JavaScript is not used in modern JavaScript programming."
+        ]
+      }
+    ]
   }
 }
